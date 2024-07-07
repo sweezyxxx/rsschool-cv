@@ -1,0 +1,249 @@
+body {
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav {
+    background-color: black;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    align-items: center;
+    margin: 0px;
+}
+.nav-link  {
+    padding: 0px 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: dimgrey;
+    transition: 0.2s;
+}
+.contact-link {
+    text-decoration: none;
+    color: navy;
+}
+.nav-logo {
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px 20px;
+    float: left;
+}
+.header-logo {
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
+}
+#profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightgray;
+    margin: 20px 0px 0px 0px;
+}
+.pfp {
+    height: 850px;
+}
+.profile-about {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+}
+h1 {
+    font-size: 52px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.profile-about-text {
+    font-size: 26px;
+    text-align: left;
+}
+#contacts {
+    display: flex;
+    flex-direction: column;
+}
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    margin: 20px 0px
+}
+.contact-header {
+    align-self: left;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 20px 0px;
+}
+.contact-list-item {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    width: 80px;
+}
+.icon:hover {
+    width: 140px;
+    transition: 0.2s;
+}
+.icon:not(:hover){
+    transition: 0.2s;
+}
+
+.summary-text {
+    font-size: 24px;
+    margin: 0px;
+}
+.summary-header {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 20px 0px 10px 0px;
+}
+#summary {
+    display: flex;
+    flex-direction: column;
+}
+.summary-info-block {
+    width: 500px;
+}
+.strenghts {
+    display: flex;
+    flex-direction: column;
+}
+.strenghts-header {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 20px 0px;
+    text-align: left;
+}
+.strenghts-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.strengths-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    width: 375px;
+    padding: 10px 0px;
+}
+.number-icon {
+    width: 60px;
+    display: flex;;
+}
+.strenghts-text {
+    display: flex;
+    font-size: 24px;
+    margin: 0px;
+}
+.strenghts-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#strenghts {
+    display: flex;
+    flex-direction: column;
+}
+.strengths-list-item p {
+    padding-left: 10px;;
+    margin: 0px;
+}
+.knowledge-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+    min-width: max-content;
+    margin: 0px;
+}
+#knowledge {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 60px 0px;
+}
+.knowledge-header {
+    font-size: 36px;
+    text-transform: uppercase;
+    align-self: center;
+    margin: 0px 0px 15px 0px;
+}
+.knowledge {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 30px 0px;
+    border: 3px solid darkgray;
+}
+.knowledge-list-item {
+    font-size: 24px;
+    padding: 0px 20px;
+}
+.footer {
+    background-color: black;
+    height: 90px;
+}
+.footer-content {
+    color: white;
+    height: 60px;
+    padding: 20px 0px 10px 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    margin: 40px 0px 60px;
+}
+.footer-logo {
+    height: 50px;
+    align-self: center;
+}
+.footer-logo-img {
+    float: right;
+    max-height: 100%;
+    align-self: center;
+}
+.footer-info {
+    align-self: center;
+    float: left;
+    font-weight: 600;
+}
+.footer-gitlink {
+    text-decoration: none;
+    color: white;
+}
+hr {
+    border: 1.5px solid darkgray;
+}   
