@@ -66,6 +66,9 @@ html{
     background-color: lightgray;
     margin: 20px 0px 0px 0px;
 }
+.profile-pfp {
+    height: 850px;
+}
 .pfp {
     height: 850px;
 }
